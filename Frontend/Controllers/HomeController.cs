@@ -28,7 +28,7 @@ namespace o3h.Webexample.Frontend.Controllers
         {
             using var httpClient = new HttpClient();
 
-            var apiClient = new swaggerClient("https://localhost:44369/", httpClient);
+            var apiClient = new swaggerClient("https://o3h-backend-nonprod.azurewebsites.net/", httpClient);
             var result = await apiClient.WeatherForecastAsync();
 
             //// create a product
