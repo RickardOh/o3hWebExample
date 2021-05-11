@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'o3h-dev'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2e8fc3d0ea26444f81bdb8e668a6d12b }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_310fb8f4ef62490ea1297ef2c7debec1 }}
         package: .
